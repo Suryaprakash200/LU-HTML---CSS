@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    width: 100%;              /*align-items is not working for me,i don't know why*/
+    background-color: gray; 
+    padding-top: 40px;
+    padding-bottom: 40px;               
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    background-color: red;
+    height: 200px;
+    width: 15%;
+}
+.nextparent{
+    width: 100%;   
+    background-color: black; 
+    /* margin-top: 50px; */
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+.two{
+    background-color: gray;
+    height: 200px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 4%;
+}
